@@ -11,31 +11,7 @@ public class FileUtil {
 
 	static int count=0;
 	List<MyFile> files=new ArrayList<>();
-	public FileUtil()
-	{
-		
-	/*	File f=new File("C://Manasa");
-		String[] fs=f.list();
-		for(MyFile file:files)
-		{
-			count++;
-			files.add(count,file);
-		}
-	*/
-	}
-
-	/*public FileUtil(List<MyFile> files,String path)
-	{
-		File f=new File(path);
-		String[] fs=f.list();
-		for(String file:fs)
-		{
-			count++;
-		files.add(new MyFile(count,file));
-		}	
-		
-	}
-	*/
+	
 	public List<MyFile> getFiles(String filePath)
 	{
 		
